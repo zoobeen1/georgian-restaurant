@@ -5,13 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header"></header>
-    <section class="hero"></section>
+    <section class="hero">
+      <div class="container">
+        <header class="header">
+          <div class="logo">
+            <a class="logo__link" href="/index.html">
+              <svg class="logo__icon" width="133" height="66">
+                <use href="./img/icons.svg#icon-logo"></use>
+              </svg>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="/index.html">главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#menu">меню</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">доставка</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">контакты</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">акции</a></li>
+            </ul>
+          </nav>
+          <ul class="address-list">
+            <!-- <li class="address-list__item">
+				  <a href="mailto:info@dewstudio.com" class="address-list__link">
+					 <svg class="address-list__icon" width="16" height="12">
+						<use href="./images/icons.svg#envelope"></use>
+					 </svg>
+					 <p class="address-list__text">info@dewstudio.com</p>
+				  </a>
+				</li> -->
+            <li class="address-list__item">
+              <a href="tel:+70001234567" class="address-list__link">
+                <svg class="address-list__icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-phone"></use>
+                </svg>
+                <p class="address-list__text">+7(000)123 45 67</p>
+              </a>
+            </li>
+          </ul>
+          <ul class="social">
+            <li class="social__item">
+              <a href="instagram.com" class="social__link">
+                <svg class="social__icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="facebook.com" class="social__link">
+                <svg class="social__icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="twitter.com" class="social__link">
+                <svg class="social__icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </header>
+        <h1 class="hero__title">
+          Попробуй лучшую <span class="accent">грузинскую</span> кухню в Москве.
+        </h1>
+        <p class="hero__text">
+          В нашем ресторане Вы найдете лучшие блюда приготвленные по старинным
+          рецептам грузинской кухни. Потрясающий вкус блюд перенесет Вас к
+          атмосферу невероятного Тбилисси не выходя из дома.
+        </p>
+        <div class="button hero__button">
+          <a href="#menu" class="button__link">перейти к меню</a>
+        </div>
+      </div>
+    </section>
     <section class="try"></section>
     <section class="delivery"></section>
     <section class="gallery"></section>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="logo">
+        <!-- width="10" height="16" -->
+        <svg class="logo__icon" width="100" height="160">
+          <a href="/index.html">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </a>
+        </svg>
+      </div>
+    </footer>
   </body>
 </html>

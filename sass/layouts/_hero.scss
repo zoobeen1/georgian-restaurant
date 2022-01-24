@@ -1,0 +1,18 @@
+.hero {
+  margin: 0 auto;
+  width: 1440px;
+  padding-top: 10px;
+  background-image: url("../img/hero-bg.jpg");
+  padding-bottom: 176px;
+  &__title {
+    width: 570px;
+    margin-top: 130px;
+    @include font-base(900, 55, 70);
+  }
+  &__text {
+    margin-top: 25px;
+    width: 500px;
+    @include font-base(400, 16, 22);
+    margin-bottom: 35px;
+  }
+}

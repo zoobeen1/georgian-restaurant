@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 229px;
+  background-color: var(--brend-color-2);
+  border-radius: 5px;
+  &__link {
+    text-transform: uppercase;
+    @include font-base(900, 14, 19);
+    color: var(--brend-color-1);
+  }
+}

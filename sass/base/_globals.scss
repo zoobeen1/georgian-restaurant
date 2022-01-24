@@ -1,0 +1,46 @@
+/* GLOBALS */
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: var(--text-color);
+  // background-color: rgb(184, 184, 184);
+}
+section {
+  // padding-top: 60px;
+  // padding-bottom: 60px;
+  @media screen and (min-width: $desc) {
+    // padding-top: 94px;
+    // padding-bottom: 94px;
+  }
+}
+/*! GLOBAL BLOCKS */
+.container {
+  outline: 1px solid red;
+  // padding: 0 15px;
+  margin: 0 auto;
+  @media screen and (min-width: $mob) {
+    width: 480px;
+  }
+  @media screen and (min-width: $tab) {
+    width: 768px;
+  }
+  @media screen and (min-width: $desc) {
+    width: 1200px;
+  }
+}
+.accent {
+  color: var(--brend-color-2);
+}
+.flexer {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
